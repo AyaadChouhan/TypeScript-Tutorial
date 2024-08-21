@@ -1,5 +1,5 @@
 // TypeScript Basic Generics
-// Generics allow creating 'type variables' which can be used to create classes, functions & type aliases that don't need to explicitly define the types that they use.
+// NOTE : Generics in TypeScript help you write more reusable, flexible, and type-safe code. Instead of creating redundant variables or functions for different types, you can use generics to handle multiple types with a single implementation. This reduces code duplication, improves maintainability, and ensures type safety.// Generics allow creating 'type variables' which can be used to create classes, functions & type aliases that don't need to explicitly define the types that they use.
 
 // Generics makes it easier to write reusable code.
 function result<T>(arr: T[]): T[] {
